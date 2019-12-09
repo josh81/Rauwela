@@ -61,7 +61,6 @@ blockquote{
     position:relative;
 }
 #header{
-    
 }
 .top{
     background:#403e72;
@@ -205,6 +204,8 @@ blockquote{
 }
 #believe-nav .navbar-brand{
     padding:0 15px;
+    height: 50px;
+    width: 180px;
     height:auto;
 }
 .homepage-2 #believe-nav .navbar-brand h1{
@@ -580,7 +581,7 @@ blockquote{
     font-weight: 700;
 }
 .slide-offers-right .slide-offers-title span{
-    color:#f666b1 ;
+    color:#005212 ;
 }
 .slider-desc p{
     color:#dddde0 ;
@@ -1386,7 +1387,15 @@ blockquote{
 .about-page .post-content h4{
     font-weight: 500;
     margin:0;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 32px;
+    color:#292828;
+    margin-bottom:45px;
+}
+.about-page .post-content2 h4{
+    font-weight: 500;
+    margin:0;
+    font-size: 14px;
     line-height: 32px;
     color:#292828;
     margin-bottom:45px;
@@ -1636,6 +1645,7 @@ blockquote{
     height:45px;
     width:125px;
     padding-top:12px;
+    text-align: center;
 }
 .blog-block{
     
@@ -4197,3 +4207,26 @@ blockquote{
     line-height: 36px;
 }
 html { scroll-behavior: smooth; } 
+.one-half,
+.one-third {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+        margin-bottom: 20px;
+ 
+}
+ 
+.one-half { width: 48%; }
+.one-third { width: 30.66%; }
+ 
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+ 
+@media only screen and (max-width: 767px) {
+    .one-half, .one-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
