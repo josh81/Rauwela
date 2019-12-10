@@ -1585,3 +1585,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+ 
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+  #intro .carousel-content {
+    text-align: center;
+    margin-top: 100px;
+}
+}
