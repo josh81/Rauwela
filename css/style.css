@@ -1591,6 +1591,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* STYLES HERE for DEVICES with physical max-screen width of 480px */
   #intro .carousel-content {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 }
